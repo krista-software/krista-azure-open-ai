@@ -18,16 +18,12 @@ This guide walks you through creating an Azure OpenAI resource in Microsoft Azur
 
 Navigate to the [Azure Portal](https://portal.azure.com) and sign in with your Azure account credentials.
 
-![Azure Portal Login](../_media/CreatingAzureOpenAIApp_azure_portal_login.png)
-
 ### 2. Create Azure OpenAI Resource
 
 1. In the Azure portal, click **"Create a resource"** or use the **"+"** button
 2. Search for **"Azure OpenAI"** in the marketplace
 3. Select **"Azure OpenAI"** from the search results
 4. Click **"Create"**
-
-![Create Azure OpenAI Resource](../_media/CreatingAzureOpenAIApp_create_resource.png)
 
 ### 3. Configure Basic Settings
 
@@ -39,8 +35,6 @@ Fill in the required information for your Azure OpenAI resource:
 - **Name**: Enter a unique name for your Azure OpenAI resource
 - **Pricing Tier**: Select appropriate pricing tier (Standard S0 recommended)
 
-![Basic Configuration](../_media/CreatingAzureOpenAIApp_basic_config.png)
-
 > **⚠️ Warning**: Choose your region carefully as it affects model availability and latency.
 
 ### 4. Configure Network Settings
@@ -49,16 +43,12 @@ Fill in the required information for your Azure OpenAI resource:
 2. **Private Endpoints**: Configure if required by your organization
 3. **Managed Identity**: Enable if needed for advanced scenarios
 
-![Network Configuration](../_media/CreatingAzureOpenAIApp_network_config.png)
-
 ### 5. Review and Create
 
 1. Review all configuration settings
 2. Click **"Review + create"**
 3. Validate the configuration
 4. Click **"Create"** to deploy the resource
-
-![Review and Create](../_media/CreatingAzureOpenAIApp_review_create.png)
 
 Deployment typically takes 2-5 minutes to complete.
 
@@ -78,8 +68,6 @@ After the resource is created:
    - **Deployment type**: Standard
 6. Click **"Create"**
 
-![Model Deployment](../_media/CreatingAzureOpenAIApp_model_deployment.png)
-
 > **💡 Tip**: You can deploy multiple models to the same resource for different use cases.
 
 ### 7. Obtain API Keys
@@ -87,8 +75,6 @@ After the resource is created:
 1. In your Azure OpenAI resource, navigate to **"Keys and Endpoint"**
 2. Copy one of the API keys (Key 1 or Key 2)
 3. Note the **Endpoint URL** - you'll need both for configuration
-
-![API Keys and Endpoint](../_media/CreatingAzureOpenAIApp_keys_endpoint.png)
 
 > **🔒 Security**: Store API keys securely and never share them publicly.
 
